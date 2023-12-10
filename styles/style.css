@@ -265,3 +265,91 @@ body{
    background-color: white;
    padding: 5px;
  }
+
+ /* responsive for css */
+
+ @media screen and (max-width: 768px){
+   .header-title{
+      margin:  50px auto;
+      width: 75vw;
+      height: 55vh;
+   }
+
+   .banner-section{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 90vw;
+      margin: auto;
+      gap: 20px;
+   }
+   .banner-card{
+      width: 55vw;
+      margin: auto;
+      height:50vh;
+   }
+   .sec-bnr{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around;
+      width: 90vw;
+      margin: auto;
+      gap: 20px;
+   }
+   .cr-bnr{
+      width: 50vw;
+      margin: auto;
+      height:50vh;
+   }
+   
+   .about-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+   }
+   .about-image img{
+      width: 60vw;
+   }
+   .about-title{
+      width: 70vw;
+      margin: auto;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 50px 0px;
+   }
+   .from-sec{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+   }
+   .from-cart img{
+      width: 70vw;
+   }
+   .from-cart{
+      width: 70vw;
+      margin: auto;
+      font-family: sans-serif;
+      height: auto;
+   }
+   .footer-sec{
+      justify-content: center;
+      display: flex;
+      gap: 20px;
+   }
+   .section{
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
+      font-size: 20px;
+      justify-content: space-around;
+      align-items: center;
+   }
+   .sec-box{
+      width: 50vw;
+      height: auto;
+      text-align: center;
+   }
+ }
